@@ -6,4 +6,4 @@ perl:
   - "5.14"
   - "5.12"
   - "5.10"
-install: cpanm --quiet --with-develop --installdeps --notest .
+install: cpanm --with-develop --installdeps --notest .

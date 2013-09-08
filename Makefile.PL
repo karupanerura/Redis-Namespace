@@ -1,4 +1,3 @@
-use Module::Install::CPANfile;
 use inc::Module::Install;
 
 name 'Redis-Namespace';
@@ -8,5 +7,5 @@ tests 't/*.t';
 author_tests 'xt';
 
 auto_include;
-cpanfile;
+do 'cpanfile';
 WriteAll;
