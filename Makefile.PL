@@ -1,5 +1,5 @@
-use inc::Module::Install;
 use Module::Install::CPANfile;
+use inc::Module::Install;
 
 name 'Redis-Namespace';
 all_from 'lib/Redis/Namespace.pm';
